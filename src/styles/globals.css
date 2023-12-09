@@ -25,3 +25,22 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@layer components {
+  .btn {
+   @apply px-4 py-2 rounded-md;
+   @apply text-base;
+  }
+  .btn-info {
+    @apply btn;
+    @apply bg-blue-500 hover:bg-zinc-700;
+  }
+  .btn-success {
+    @apply btn;
+    @apply bg-green-500 hover:bg-zinc-700;
+  }
+  .btn-error {
+    @apply btn;
+    @apply bg-red-500 hover:bg-zinc-700;
+  }
+}
