@@ -9,7 +9,6 @@ export default function Home() {
           secundario="Curso de React com TailwindCSS"
           gradiente
         />
-        Página Inicial
       </Pagina>
   )
 }
