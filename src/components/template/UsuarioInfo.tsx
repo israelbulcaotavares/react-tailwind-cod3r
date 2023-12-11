@@ -19,9 +19,10 @@ export default function UsuarioInfo(props: UsuarioInfoProps) {
         className="rounded-full"
       />
       <div className="flex flex-col">
-        <span>{props.nome}</span>
-        <span className="text-sm text-zinc-700 dark:text-zinc-400">{props.email}</span>
+        <span className="text-zinc-900 dark:text-zinc-100">{props.nome}</span>
+        <span className="text-sm text-zinc-700 dark:text-zinc-100">{props.email}</span>
       </div>
+      <div className="flex-1"></div>
       <IconDotsVertical className="cursor-pointer" />
     </div>
   );
