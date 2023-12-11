@@ -8,7 +8,7 @@ export default function Logo(props: LogoProps){
     return(
         <div className={`flex items-center gap-4 ${props.className ?? ''}`}>
             <IconBrandTailwind size={40} stroke={1}/>
-            <span className="text-zinc-400">Tailwind com React</span>
+            <span className="text-zinc-700 dark:text-zinc-400">Tailwind com React</span>
         </div>
     )
 }
