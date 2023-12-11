@@ -32,7 +32,7 @@ interface MenuProps {
 
 export default function Menu(props: MenuProps) {
   return (
-    <div className={`p-7 ${props.className ?? ""}`}>
+    <div className={`p-7 cursor-pointer ${props.className ?? ""}`}>
 
       <MenuGrupo texto="Conceitos" />
       <MenuItem icone={<IconTextPlus />} texto="Tudo é classes" url="/conceitos/classes" />
